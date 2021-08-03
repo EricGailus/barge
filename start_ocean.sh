@@ -52,9 +52,9 @@ export NETWORK_RPC_URL="http://"${NETWORK_RPC_HOST}:${NETWORK_RPC_PORT}
 export GANACHE_MNEMONIC=${GANACHE_MNEMONIC:-"taxi music thumb unique chat sand crew more leg another off lamp"}
 
 # URI of single metadata cache instance for all networks
-# export METADATACACHE_URI="http://0.0.0.0:5000"
+export METADATACACHE_URI="http://0.0.0.0:5000"
 
-# export AQUARIUS_URL="http://0.0.0.0:5000/"
+export AQUARIUS_URL="http://0.0.0.0:5000"
 
 # export SUBGRAPH_URI=""
 
@@ -62,7 +62,7 @@ export GANACHE_MNEMONIC=${GANACHE_MNEMONIC:-"taxi music thumb unique chat sand c
 export OCEAN_HOME="${HOME}/.ocean"
 export CONTRACTS_OWNER_ROLE_ADDRESS="${CONTRACTS_OWNER_ROLE_ADDRESS}"
 export DEPLOY_CONTRACTS=true
-export OCEAN_ARTIFACTS_FOLDER="${OCEAN_HOME}/ocean-contracts/artifacts"
+export OCEAN_ARTIFACTS_FOLDER="${OCEAN_HOME}/ocean-contracts/artifacts_local"
 export ADDRESS_FILE="${OCEAN_ARTIFACTS_FOLDER}/address.json"
 echo "export ADDRESS_FILE=${ADDRESS_FILE}"
 # Specify which ethereum client to run or connect to: development
