@@ -52,9 +52,9 @@ export NETWORK_RPC_URL="http://"${NETWORK_RPC_HOST}:${NETWORK_RPC_PORT}
 export GANACHE_MNEMONIC=${GANACHE_MNEMONIC:-"taxi music thumb unique chat sand crew more leg another off lamp"}
 
 # URI of single metadata cache instance for all networks
-# export METADATACACHE_URI="http://0.0.0.0:5000"
+export METADATACACHE_URI="http://0.0.0.0:5000"
 
-# export AQUARIUS_URL="http://0.0.0.0:5000/"
+export AQUARIUS_URL="http://0.0.0.0:5000/"
 
 # export SUBGRAPH_URI=""
 
