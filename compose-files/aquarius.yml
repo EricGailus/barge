@@ -16,8 +16,8 @@ services:
       DB_PORT: ${DB_PORT}
       DB_USERNAME: ${DB_USERNAME}
       DB_PASSWORD: ${DB_PASSWORD}
-      DB_SSL: ${DB_SSL}
-      DB_VERIFY_CERTS: ${DB_VERIFY_CERTS}
+      DB_SSL: "false"
+      DB_VERIFY_CERTS: "false"
       DB_CA_CERTS: ${DB_CA_CERTS}
       DB_CLIENT_KEY: ${DB_CLIENT_KEY}
       DB_CLIENT_CERT: ${DB_CLIENT_CERT}
@@ -25,7 +25,7 @@ services:
       EVENTS_ECIES_PRIVATE_KEY: "0x5d75837394b078ce97bc289fa8d75e21000573520bfa7784a9d28ccaae602bf8"
       ARTIFACTS_PATH: "/ocean-contracts/artifacts"
       ADDRESS_FILE: "/ocean-contracts/artifacts/address.json"
-      DEPLOY_CONTRACTS: ${DEPLOY_CONTRACTS}
+      DEPLOY_CONTRACTS: "false"
       NETWORK_NAME: ${CONTRACTS_NETWORK_NAME}
       EVENTS_RPC: "http://172.15.0.3:8545"
       EVENTS_ALLOW: "0"
